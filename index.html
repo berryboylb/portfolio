@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+     <!-----Goggle fonts lato,poppins,monserrat and lora-->
+     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+     <!--font awesome kit link--->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!----AOS library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js" defer></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js" defer></script>
+    <title>website portfolio</title>
+  </head>
+  <body>
+    <div class="anything">
+      <header id="home">
+        <nav >
+            <div class="logo"><a href="#"><img src="images/Group 10 (1).png" alt=""></a></div>
+            <div class="hamburger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+              <li><a  class="link" href="#home" >Home</a></li>
+              <li><a class="link" href="#about">About</a></li>
+              <li><a class="link" href="#services">Services</a></li>
+              <li><a class="link" href="#portfolio">Portfolio</a></li>
+              <li><a class="link" href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+      <div class="headercontent">
+          <div  >
+            <h3>HELLO</h3>
+          </div>
+          <div>
+            <h1>I’m COLLINS ESPIRITO</h1>
+          </div>
+          <p> I'm a <span class="txt-type" data-wait="3000" data-words='["Frontend web Developer", " Backend web Developer", "UI/UX Designer"]'></span></p>
+          <button><a href="#">Contact Me</a></button>
+      </div>
+    </header>
+
+    <!------first sec ------>
+    <section class="firstsec" id="about">
+        <h1>ABOUT ME</h1>
+        <div class="firstsecin">
+            <div class="hello" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                <h2>Hello! I'm Collins, a software engineer based in Boston,MA.</h2>
+                <h3>I enjoy creating things that live on the internet, whether that be websites, applications,or anything in between.My goal is to build products that provide pixel-perfect performant experiences.</h3>
+                <div class="Skill">
+                    <div class="bar learning" data-skill="Javascript"></div>
+                    <div class="stack" ><H3>Javascript</h3> <p>90%</p></div>
+                    <div class="stack" ><h3>CSS</h3> <p>90%</p></div>
+                    <div  class="bar back basic" data-skill="CSS"></div>
+                    <div class="stack" ><h3>HTML</h3> <p>90%</p></div>
+                    <div class="bar back intermediate" data-skill="HTML"></div>
+                    <div class="stack" ><h3>NODE</h3> <p>80%</p></div>
+                    <div class="bar front advanced" data-skill="NODE"></div>
+                  </div>
+                <button><a href="#">RESUME</a></button>
+            </div>
+            <div class="firstimg1" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="500">
+                <img src="images/mountains-nature-relaxing-mountain-93827 2.png" alt="">
+            </div>
+            <div class="firstimg">
+              <img src="images/mountains-nature-relaxing-mountain-93827 2.png" alt="">
+          </div>
+            <div class="hello1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+                <h2>Hello! I'm Collins, a software engineer based in Boston,MA.</h2>
+                <h3>I enjoy creating things that live on the internet, whether that be websites, applications,or anything in between. My goal is to build products that provide pixel-perfect performant experiences.</h3>
+                <div class="Skill">
+                    <div class="bar learning" data-skill="Javascript"></div>
+                    <div class="stack" ><H3>Javascript</h3> <p>90%</p></div>
+                    <div class="stack" ><h3>CSS</h3> <p>90%</p></div>
+                    <div  class="bar back basic" data-skill="CSS"></div>
+                    <div class="stack" ><h3>HTML</h3> <p>90%</p></div>
+                    <div class="bar back intermediate" data-skill="HTML"></div>
+                    <div class="stack" ><h3>NODE</h3> <p>80%</p></div>
+                    <div class="bar front advanced" data-skill="NODE"></div>
+                  </div>
+                <button><a href="#">RESUME</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!------second sec ------>
+    <section class="secondsec" id="services">
+        <div data-aos="zoom-in" data-aos-easing="ease-in-out">
+          <h1>SERVICES</h1>
+        </div>
+       <div  data-aos="zoom-in-up" data-aos-easing="ease-out">
+        <P>Lorem ipsum dolor sit amet, consectetur adipiscing eli</P>
+       </div>
+       
+        <div class="secondsecin">
+            <div class="box" data-aos="flip-left" data-aos-duration="500">
+                <div class="prebrain"><i class="fas fa-atom"></i></div>
+                <h4 class="bold">WEB DESIGN</h4>
+                <h4 class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis enim id viverra eget.</h4>
+            </div>
+                <div class="box" data-aos="flip-right" data-aos-duration="500">
+                    <div class="prebrain"><i class="fas fa-brain"></i></div>
+                    <h4 class="bold">WEB DEV</h4>
+                    <h4 class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis enim id viverra eget.</h4>
+                </div>
+                <div class="box" data-aos="flip-left" data-aos-duration="500">
+                    <div class="prebrain"><i class="fas fa-balance-scale-left"></i></div>
+                    <h4 class="bold">UI/UX</h4>
+                    <h4 class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis enim id viverra eget.</h4>
+                </div>
+        </div>
+    </section>
+
+
+    <!-- /*----Third sec ----*/ -->
+    <section class="thirdsec" id="portfolio">
+        <div data-aos="zoom-in" data-aos-easing="ease-in-out">
+          <h1>PORTFOLIO</h1>
+        </div>
+           <div data-aos="zoom-in-up" data-aos-easing="ease-out">
+            <h4>Thanks to Yales co-op program, I've had the privilege of completing two awesome six-month co-ops as a Creative Technologist at Tesla. and Software Engineer at Coca Cola. Starting in July 2017, I'll be joining the iTunes team at Apple as a UI Engineer for my third and final co-op!</h4>
+           </div>
+        <div>
+          <div class="desktop">
+            <div class="left"  data-aos="fade-up-left" data-aos-easing="ease-in-out-quad">
+                <span><strong>RESEARCH ASSISTANT</strong></span></br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+              </div>
+              <div class="date"> 
+                  <p>2013-MAR 2014</p>
+                  <i  class="fa fa-graduation-cap"></i> 
+              </div>
+            <div class="right" data-aos="fade-up-right" data-aos-easing="ease-in-out-quad">
+                <span><strong>CREATIVE TECHNOLOGIST</strong></span></br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+              </div>
+              <div class="date1">
+                <p>MAR -MAY 2015</p>
+                <i  class="fa fa-graduation-cap"></i>
+            </div>
+    
+              <div class="left" data-aos="fade-up-left" data-aos-easing="ease-in-out-quad">
+                <span><strong>DEVELOPER</strong></span></br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+              </div>
+              <div class="date">
+                <p>JUL - DEC 2015</p>
+                <i  class="fa fa-graduation-cap"></i>
+            </div>
+    
+              <div class="right" data-aos="fade-up-right" data-aos-easing="ease-in-out-quad">
+                <span><strong>CREATIVE TECHNOLOGIST</strong></span></br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+              </div>
+              <div class="date1">
+                <p>JAN - MAY 2016</p>
+                <i  class="fa fa-graduation-cap"></i> 
+            </div>
+    
+              
+              <div class="left" data-aos="fade-up-left" data-aos-easing="ease-in-out-quad">
+                <span><strong>DEVELOPER</strong></span></br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+              </div>
+    
+              <div class="date">
+                <p>MAY 2016 - PRESENT</p>
+                <i  class="fa fa-graduation-cap"></i>
+            </div>
+    
+    
+              <div class="right" data-aos="fade-up-right" data-aos-easing="ease-in-out-quad">
+                <span><strong>CREATIVE TECHNOLOGIST</strong></span></br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+              </div>
+              <div class="date1">
+                <p>JAN 2017 - PRESENT</p>
+                <i  class="fa fa-graduation-cap"></i> 
+            </div>
+          </div>
+
+          <div class="mobile">
+            <div class="fine">
+                <div class="left" data-aos="fade-up-left" data-aos-easing="ease-in-out-back">
+                    <span><strong>DEVELOPER</strong></span></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+                   
+                  </div>
+                  <i  class="fa fa-graduation-cap"></i>
+            </div>
+            <div class="fine">
+                <div class="left" data-aos="fade-up-left" data-aos-easing="ease-in-out-back">
+                    <span><strong>DEVELOPER</strong></span></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+                  </div>
+                  <i  class="fa fa-graduation-cap"></i>
+            </div>
+            <div class="fine">
+                <div class="left" data-aos="fade-up-left" data-aos-easing="ease-in-out-back">
+                    <span><strong>DEVELOPER</strong></span></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+                    
+                  </div>
+                  <i  class="fa fa-graduation-cap"></i>
+            </div>
+            <div class="fine">
+                <div class="left" data-aos="fade-up-left" data-aos-easing="ease-in-out-back">
+                    <span><strong>DEVELOPER</strong></span></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+                   
+                  </div>
+                  <i  class="fa fa-graduation-cap"></i>
+            </div>
+            <div class="fine">
+                <div class="left" data-aos="fade-up-left" data-aos-easing="ease-in-out-back">
+                    <span><strong>DEVELOPER</strong></span></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+                   
+                  </div>
+                  <i  class="fa fa-graduation-cap"></i>
+            </div>
+            <div class="fine">
+                <div class="left" data-aos="fade-up-left" data-aos-easing="ease-in-out-back">
+                    <span><strong>DEVELOPER</strong></span></br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
+                    
+                  </div>
+                  <i  class="fa fa-graduation-cap"></i>
+            </div>
+          </div>  
+        </div>
+    </section>
+
+    <section class="fourthsec">
+      <div data-aos="zoom-in" data-aos-easing="ease-in-out">
+        <h1>PROJECTS</h1>
+      </div>
+        <div class="tabs" >
+          <button class="tablinks" onclick="openCity(event, 'London')">All</button>
+          <button class="tablinks" onclick="openCity(event, 'Paris')">Graphics</button>
+          <button class="tablinks" onclick="openCity(event, 'Tokyo')">UI/UX</button>
+          <button class="tablinks" onclick="openCity(event, 'Abuja')" >Web development</button>
+        </div>
+        <!-----i used city names each city name represent a part-->
+
+        <!-----part one-->
+        <div id="London" class="tabcontent">
+         <div class="cardcontent">
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo.png" alt="">
+              <div class="font">
+                <h4>FONTIPSUMS</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo1.png" alt="">
+              <div class="font">
+                <h4>Tera Chatbot feature</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo2.png" alt="">
+              <div class="font">
+                <h4>Simulaton Software</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+         </div>
+         <div class="cardcontent">
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500"> 
+            <div class="dow">
+              <img src="images/Photo.png" alt="">
+            <div class="font">
+              <h4>FONTIPSUMS</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo1.png" alt="">
+            <div class="font">
+              <h4>Tera Chatbot feature</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo2.png" alt="">
+            <div class="font">
+              <h4>Simulaton Software</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+       </div>
+        </div>
+
+        <!-----part two----->
+        <div id="Paris" class="tabcontent">
+          <div class="cardcontent">
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo.png" alt="">
+              <div class="font">
+                <h4>FONTIPSUMS</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo1.png" alt="">
+              <div class="font">
+                <h4>Tera Chatbot feature</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo2.png" alt="">
+              <div class="font">
+                <h4>Simulaton Software</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+         </div>
+         <div class="cardcontent">
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo.png" alt="">
+            <div class="font">
+              <h4>FONTIPSUMS</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo1.png" alt="">
+            <div class="font">
+              <h4>Tera Chatbot feature</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo2.png" alt="">
+            <div class="font">
+              <h4>Simulaton Software</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+       </div>
+        </div>
+
+        <!-----part three-------->
+        <div id="Tokyo" class="tabcontent">
+          <div class="cardcontent">
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo.png" alt="">
+              <div class="font">
+                <h4>FONTIPSUMS</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo1.png" alt="">
+              <div class="font">
+                <h4>Tera Chatbot feature</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo2.png" alt="">
+              <div class="font">
+                <h4>Simulaton Software</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+         </div>
+         <div class="cardcontent">
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo.png" alt="">
+            <div class="font">
+              <h4>FONTIPSUMS</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo1.png" alt="">
+            <div class="font">
+              <h4>Tera Chatbot feature</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="clay"  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo2.png" alt="">
+            <div class="font">
+              <h4>Simulaton Software</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+       </div>
+        </div>
+
+        <!-----part four----->
+        <div id="Abuja" class="tabcontent">
+          <div class="cardcontent">
+            <div class="clay" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo.png" alt="">
+              <div class="font">
+                <h4>FONTIPSUMS</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="clay" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo1.png" alt="">
+              <div class="font">
+                <h4>Tera Chatbot feature</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+
+            <div class="clay" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+              <div class="dow">
+                <img src="images/Photo2.png" alt="">
+              <div class="font">
+                <h4>Simulaton Software</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+         </div>
+         <div class="cardcontent">
+          <div class="clay" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo.png" alt="">
+            <div class="font">
+              <h4>FONTIPSUMS</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="clay" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo1.png" alt="">
+            <div class="font">
+              <h4>Tera Chatbot feature</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="clay" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="500">
+            <div class="dow">
+              <img src="images/Photo2.png" alt="">
+            <div class="font">
+              <h4>Simulaton Software</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.  make up the bulk of the card's content.</p>
+            </div>
+            </div>
+          </div>
+       </div>
+        </div>
+    </section>
+
+
+    <section class="fifthsec" >
+      <div class="container"  data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
+       <div class="row justify-content-center text-center">
+        <div class="col-md-4">
+         <span id="count1" class="display-4"></span> <span class="plus">+</span></br>
+         <span class="project">Projects Completed </span>
+        </div>
+        <div class="col-md-4">
+         <span id="count2" class="display-4"></span> <span class="plus">+</span></br>
+         <span class="project">Happy clients</span>
+        </div>
+        <div class="col-md-4">
+         <span id="count3" class="display-4"></span> <span class="plus">+</span></br>
+         <span class="project">Awards Received</span>
+        </div>
+       </div>
+      </div>
+     </section>
+
+     <section class="sixthsec" id="contact">
+        <div data-aos="zoom-in" data-aos-easing="ease-in-out">
+          <h1>CONTACT</h1>
+        </div>
+            <div data-aos="zoom-in-up" data-aos-easing="ease-out">
+              <p>If you’re interested in Chatting or  have any questions  or any projects in mind feel free to call or  send a message 
+              </p>
+            </div>
+       
+      <div class="sixthsecin">
+        <div   data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <img src="images/Rectangle 52.png" alt="">
+        </div>
+        <div >
+          <form class="form" action="#" >
+            <input class="name" type="text" name="name" id="name" placeholder="Name">
+            <input class="email" type="text" name="Email" id="email" placeholder="Email Address">
+            <input class="number" type="text" name="Phone number" id ="phone number" placeholder="Phone number">
+            <textarea class="Message" name="Message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input class="submit" type="submit" value="SEND MESSAGE">
+          </form>
+        </div>
+      </div>
+     </section>
+
+     <footer>
+       <div class="footerin">
+         <div class="lorem3" >
+           <img src="images/Group 10 (1).png" alt="Logo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus est, urna egestas viverra pellentesque a  </p>
+         </div>
+         <div class="linkers" >
+           <h1>Quick Links</h1>
+           <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+         </div>
+         <div class="contact">
+           <h1>Contact</h1>
+           <p>Address: 1901 Thonridi</p>
+           <p>Phone: (603) 555-0123</p>
+           <p>Email: C@gmail.com</p> 
+            <div class="icons">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-square" ></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/"><i class="	fab fa-twitter"></i></a>
+              <a href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
+            </div>
+         </div>
+         
+       </div>
+       <div class="wrapper">
+       <div data-aos="fade-down-right"  data-aos-easing="ease-in-sine" data-aos-duration="800">
+        <img src="images/Group 10 (1).png" alt="">
+        <h3>Our customers satisfaction is our watchword at Envato Care. With Our customers satisfaction is our watchword at Envato Care.  </h3>
+       </div>
+      <div class="half">
+          <div class="tab" >
+              <input id="tab-one" type="checkbox" name="tabs">
+              <label for="tab-one">Quick Links</label>
+              <div class="tab-content">
+                <div class="linkers">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#services">Services</a>
+                  <a href="#portfolio">Portfolio</a>
+                  <a href="#contact">Contact</a>
+                </div>
+              </div>
+          </div>
+          <div class="tab" >
+              <input id="tab-two" type="checkbox" name="tabs">
+              <label for="tab-two">Contact</label>
+              <div class="tab-content">
+                <div class="contact">
+                  <p>Address: 1901 Thonridi</p>
+                  <p>Phone: (603) 555-0123</p>
+                  <p>Email: C@gmail.com</p> 
+                </div>
+              </div>
+          </div>
+          
+      </div>
+      <div class="icon" >
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square" ></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/"><i class="	fab fa-twitter"></i></a>
+        <a href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
+      </div>
+  </div>
+       <hr>
+       <div>
+        <h3 class="cc">© COLLINS ESPIRITO</h3>
+       </div>
+      
+     </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="smoothscroll.js"></script>
+     <script src="clone.js"></script>
+    <script src="app.js"></script>
+    <script src="typewriter.js"></script>
+    <script src="animate.js"></script>
+    <script src="gsap.js"></script>
+  </body>
+</html>
