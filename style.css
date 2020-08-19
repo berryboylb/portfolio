@@ -109,6 +109,13 @@ section,footer
     align-items: center;
     margin-left: auto;
   }
+
+  @media screen and (max-width: 1024px) {
+    .nav-links {
+      width: 80%;
+      margin-right: 10%;
+    }
+  }
   
   .nav-links li a {
     color: white !important;
