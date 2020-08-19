@@ -1281,7 +1281,12 @@ footer {
   font-size: 40px;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  margin-bottom: 21%;
+  margin-bottom: 7%;
+}
+@media screen and (max-width: 1024px) {
+  .linkers h1 {
+    margin-bottom: 21%;
+  }
 }
 
 .linkers a {
