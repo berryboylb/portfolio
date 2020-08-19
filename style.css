@@ -23,7 +23,7 @@
 }
 
 .loading-area.done {
-  animation: loadingDone 5s;
+  animation: loadingDone 3s;
   animation-fill-mode: forwards;
 }
 
