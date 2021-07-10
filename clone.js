@@ -1,4 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
+const fifthSec = document.querySelector(".fifthsec");
+
+
+fifthSec.addEventListener("mouseover", () => {
     function counter(id, start, end, duration) {
      let obj = document.getElementById(id),
       current = start,

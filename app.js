@@ -41,8 +41,6 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("Abuja").style.display = "block";
-evt.currentTarget.className += "w3-red";
+document.getElementById("bro").click();
 
 
