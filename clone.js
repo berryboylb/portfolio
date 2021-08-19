@@ -14,7 +14,7 @@
 
 
 const box = document.querySelector('.fifthsec');
-const message = document.querySelector('#message');
+const message = document.querySelector('#messages');
 
 document.addEventListener('scroll', function () {
     const messageText = isInViewport(box) ?
