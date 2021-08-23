@@ -21,7 +21,7 @@ document.addEventListener('scroll', function () {
         'The box is visible in the viewport' :
         'The box is not visible in the viewport';
 
-    message.textContent = messageText;
+   // message.textContent = messageText;
 
     function counter(id, start, end, duration) {
       let obj = document.getElementById(id),
